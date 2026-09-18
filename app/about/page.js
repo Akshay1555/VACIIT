@@ -31,13 +31,13 @@ export default function AboutPage() {
             mentoring, regular testing, and result-oriented preparation.
           </p>
         </div>
-        <div className="relative aspect-square w-full max-w-sm overflow-hidden rounded-2xl border-4 border-gold-400/60">
+        <div className="relative aspect-[893/1280] w-full max-w-sm overflow-hidden rounded-2xl border-4 border-gold-400/60">
           <Image
             src="/images/founder-institute.jpg"
             alt={`${site.founder} at the VACIIT institute`}
             fill
             sizes="(min-width: 768px) 24rem, 80vw"
-            className="object-cover"
+            className="object-cover object-top"
           />
         </div>
       </section>
